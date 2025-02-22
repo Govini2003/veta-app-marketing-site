@@ -1,0 +1,209 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9rem 3rem; /* Reduced thickness */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #1D4D4F;
+    backdrop-filter: blur(8px);
+    border-radius: 80px; /* Adjusted for a sleeker look */
+    margin: 0.5rem 1.5rem;
+    height: 65px; /* Reduced height */
+    transition: transform 0.3s ease;
+}
+
+.navbar.hidden {
+    transform: translateY(-100%);
+}
+
+/* Logo Container */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Increased the logo size properly */
+.logo {
+    height: 500px; /* Increased logo size */
+    width: auto;
+    margin-left: -25px; /* Adjusted to fit inside navbar */
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    gap: 1.5rem; /* Adjusted spacing */
+    list-style: none;
+}
+
+.nav-links a {
+    color: #E9EFEC;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+    padding: 5px 12px; /* Adjusted for a slimmer navbar */
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #dec092;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after,
+.nav-links a:focus::after {
+    width: 100%;
+}
+
+/* Mobile Menu Button */
+.nav-mob-open,
+.nav-mob-close {
+    display: none;
+    background: none;
+    border: none;
+    color: #E9EFEC;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* Mobile Navigation */
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 320px;
+    height: 100vh;
+    background-color: #1D4D4F;
+    z-index: 1001;
+    transition: right 0.3s ease-in-out;
+    padding: 60px 30px 30px;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.mobile-nav.active {
+    right: 0;
+}
+
+.mobile-nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.mobile-nav-links li {
+    margin: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 12px;
+}
+
+.mobile-nav-links li:last-child {
+    border-bottom: none;
+}
+
+.mobile-nav-links a {
+    color: #E9EFEC;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.mobile-nav-links a:hover {
+    color: #dec092;
+}
+
+/* Mobile Overlay */
+.mobile-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .navbar {
+        margin: 10px 15px;
+        padding: 0.4rem 1.2rem;
+        height: 55px; /* Reduced further for mobile */
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-mob-open {
+        display: block;
+    }
+
+    .nav-mob-close {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    .mobile-overlay {
+        display: block;
+    }
+
+    /* Adjust logo size for smaller screens */
+    .logo {
+        height: 180px; /* Increased for mobile */
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
