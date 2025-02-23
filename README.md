@@ -2,8 +2,6 @@
 
 Welcome to **Veta.lk**, your all-in-one veterinary platform that connects pet owners with vets, making pet care more accessible and hassle-free. 🐶🐱🐾
 
-![Veta.lk Preview](./screenshot.png)  
-
 ## 🚀 About Veta.lk
 Veta.lk is a **veterinary platform and public marketplace** that serves both **pet owners and veterinarians**. Our mission is to bridge the gap between pet care professionals and pet lovers, providing a seamless and efficient experience for both parties.
 
