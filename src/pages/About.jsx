@@ -37,7 +37,6 @@ const About = () => {
     { src: team3, alt: 'Team 3', description: 'Successful completion of our project defense presentation' },
     { src: splash, alt: 'Splash', description: 'Development phase of our mobile application interface' },
     { src: pet, alt: 'Pet', description: 'Development phase of our mobile application interface' },
-    { src: pet, alt: 'Pet', description: 'Development phase of our mobile application interface' },
     { src: meet3, alt: 'Meeting 3', description: 'Meeting with our supervisor to clarify our problems ' },
     { src: vetpro, alt: 'Vet profile', description: 'Development phase of our mobile application interface' },
     { src: meet4, alt: 'Hult prize meeting', description: 'Meeting of the hult prize' },
