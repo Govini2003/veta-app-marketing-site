@@ -17,9 +17,6 @@ Veta.lk is a **veterinary platform and public marketplace** that serves both **p
 ## 🖥️ Marketing Website
 This repository contains the **marketing website** for the Veta.lk mobile app. It is designed to introduce users to the platform, highlight key features, and encourage downloads and engagement.
 
-### 📷 Screenshot
-![Veta.lk Marketing Site](./screenshot.png)
-
 ## 🔧 Tech Stack
 - **Frontend**: React, TSS
 - **Hosting**: Vercel
