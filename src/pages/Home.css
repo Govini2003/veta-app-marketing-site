@@ -7,7 +7,7 @@
   gap: 1rem;
   min-height: 100vh;
   position: relative;
-  background-image: url('path_to_your_image.jpg'); /* Add your background image path */
+  background-image: url('back.jpg'); /* Add your background image path */
   background-size: cover; /* Ensure it covers the whole section */
   background-position: center center; /* Center the background */
   background-repeat: no-repeat;
