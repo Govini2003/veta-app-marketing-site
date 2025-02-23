@@ -8,6 +8,7 @@ import cat1 from '../assets/cat1.jpg';
 import cat2 from '../assets/cat2.jpg';
 import owner from '../assets/owner.jpg';
 import vet from '../assets/vet.jpg';
+import back from '../assets/back.jpg';
 import playstoreIcon from '../assets/playstore.png'; // Import the Play Store icon
 import './Home.css';
 
