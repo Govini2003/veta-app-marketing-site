@@ -1,3 +1,4 @@
+/* Desktop styles remain unchanged */
 .contact-header {
     text-align: center;
     margin-bottom: 2rem;
@@ -7,13 +8,12 @@
     margin-top: 60px;
     margin-bottom: 30px;
     font-size: 2.5rem;
-    color: #fff
-    
+    color: #fff;
   }
   
   .contact-header p {
     font-size: 1.2rem;
-    color: #fff; 
+    color: #fff;
   }
   
   .contact-content {
@@ -25,11 +25,11 @@
   
   .contact-info-section {
     flex: 1;
-    background-color: #6BA8A9; /* Teal */
+    background-color: #6BA8A9;
     padding: 4rem;
     border-radius: 10px;
     color: #fff;
-    margin-bottom:20px;
+    margin-bottom: 20px;
   }
   
   .contact-info-section h2 {
@@ -48,14 +48,14 @@
     align-items: center;
     text-decoration: none;
     color: #fff;
-    background-color: #357376; /* Dark teal */
+    background-color: #357376;
     padding: 1rem;
     border-radius: 8px;
     transition: background-color 0.3s ease;
   }
   
   .contact-link:hover {
-    background-color: #1D4D4F; /* Dark green */
+    background-color: #1D4D4F;
   }
   
   .icon {
@@ -72,11 +72,10 @@
     font-size: 1.1rem;
     font-weight: bold;
   }
-
+  
   .contact-link:hover .link-title {
     color: #dec092;
   }
-  
   
   .link-detail {
     font-size: 0.9rem;
@@ -88,22 +87,21 @@
     padding: 4rem;
     border-radius: 10px;
     box-shadow: #357376;
-    margin-bottom:20px;
-    
+    margin-bottom: 20px;
   }
   
   .contact-form-section h2 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
-    color: #fff; /* Dark green */
+    color: #fff;
   }
   
   .form-group {
     margin-bottom: 1rem;
-    
   }
+  
   input, textarea, select {
-    background-color: #ead4b5; /* Change this to any color you want */
+    background-color: #ead4b5;
     border: 1px solid #ccc;
     padding: 10px;
     border-radius: 5px;
@@ -116,18 +114,15 @@
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 1rem;
-
   }
-  
   
   .form-group textarea {
     resize: vertical;
-    
   }
   
   .submit-button {
-    background-color: #dec092; /* Cream color */
-    color: #1D4D4F; /* Dark green */
+    background-color: #dec092;
+    color: #1D4D4F;
     padding: 0.8rem 1.5rem;
     border: none;
     border-radius: 8px;
@@ -138,7 +133,7 @@
   }
   
   .submit-button:hover {
-    background-color: #c0a57d; /* Darker cream color */
+    background-color: #c0a57d;
   }
   
   .submit-button:disabled {
@@ -161,4 +156,89 @@
   .submit-status.error {
     background-color: #f8d7da;
     color: #721c24;
+  }
+  
+  /* Mobile Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .contact-content {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .contact-header h1 {
+      font-size: 2rem;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+  
+    .contact-header p {
+      font-size: 1rem;
+      padding: 0 1rem;
+    }
+  
+    .contact-info-section,
+    .contact-form-section {
+      padding: 2rem;
+      margin-bottom: 1rem;
+    }
+  
+    .contact-info-section h2,
+    .contact-form-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .contact-link {
+      padding: 0.8rem;
+    }
+  
+    .icon {
+      font-size: 1.2rem;
+    }
+  
+    .link-title {
+      font-size: 1rem;
+    }
+  
+    .link-detail {
+      font-size: 0.8rem;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      padding: 0.6rem;
+      font-size: 0.9rem;
+    }
+  
+    .submit-button {
+      width: calc(100% - 24px);
+      margin: 12px;
+      padding: 0.6rem 1rem;
+    }
+  }
+  
+  /* Small mobile devices */
+  @media screen and (max-width: 480px) {
+    .contact-header h1 {
+      font-size: 1.8rem;
+      margin-top: 50px;
+    }
+  
+    .contact-info-section,
+    .contact-form-section {
+      padding: 1.5rem;
+    }
+  
+    .contact-link {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .icon {
+      margin-right: 0;
+      margin-bottom: 0.5rem;
+    }
+  
+    .submit-button {
+      font-size: 0.9rem;
+    }
   }
