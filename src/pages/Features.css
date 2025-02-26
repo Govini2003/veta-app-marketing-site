@@ -14,7 +14,7 @@
   
   .features-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-columns: repeat(2, 1fr); 
     gap: 2rem;
     padding: 0 2rem;
     max-width: 1200px;
@@ -22,9 +22,9 @@
   }
   
   .feature-card {
-    background: #fff; /* Default background */
+    background: #fff; 
     border-radius: 10px;
-    padding: 1.5rem;
+    padding: 1.8rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
@@ -39,7 +39,7 @@
     right: -3px;
     bottom: -3px;
     background: linear-gradient(45deg, #E9EFEC, #6BA8A9, #357376);
-    border-radius: 18px; /* Ensures round corners */
+    border-radius: 18px; 
     z-index: -1;
   }
   
@@ -47,7 +47,6 @@
     filter: brightness(1.2);
   }
   
-  /* Assign specific colors to each card */
   .feature-card:nth-child(1) {
     background-color: #E9EFEC;
   }
@@ -100,7 +99,7 @@
     }
   
     .features-grid {
-      grid-template-columns: 1fr; /* Single column for mobile */
+      grid-template-columns: 1fr; 
       gap: 1.5rem;
       padding: 0 1rem;
     }
