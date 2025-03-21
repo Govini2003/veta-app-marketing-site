@@ -37,7 +37,6 @@ To run this project locally, follow these steps:
    npm start
    ```
 
-
 ## 📢 Contributing
 We are creating this together with the SE 29 group at IIT Campus 🚀
 
