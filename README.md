@@ -11,6 +11,9 @@ Veta.lk is a **veterinary platform and public marketplace** that serves both **p
 - 📝 **Health Records** – Maintain and track your pet's medical history.
 - 🐶 **Adoption Services** – Find loving homes for pets in need.
 
+### 🌐 Live Website
+- Check out the live site here 👉 https://vetaa.lk/
+
 ## 🖥️ Marketing Website
 This repository contains the **marketing website** for the Veta.lk mobile app. It is designed to introduce users to the platform, highlight key features, and encourage downloads and engagement.
 
