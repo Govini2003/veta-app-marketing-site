@@ -50,3 +50,7 @@ For inquiries and support, reach out to us:
   
 ---
 🚀 **Transforming Pet Care, One Click at a Time!** 🐾
+
+
+![image](https://github.com/user-attachments/assets/ee08d999-5126-488f-9792-d936a8f021d1)
+
