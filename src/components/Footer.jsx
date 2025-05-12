@@ -10,6 +10,7 @@ const Footer = () => {
           <p>Sri Lanka&apos;s premier veterinary platform connecting pet owners with expert veterinarians. We&apos;re dedicated to making pet healthcare accessible and efficient.</p>
         </div>
 
+        
         <div className="footer-section">
           <h3>Quick Links</h3>
           <ul>
@@ -20,6 +21,7 @@ const Footer = () => {
           </ul>
         </div>
 
+        
         <div className="footer-section">
           <h3>Contact Us</h3>
           <div className="contact-info">
